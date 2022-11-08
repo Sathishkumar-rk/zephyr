@@ -21,6 +21,8 @@ manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
+    - name: Sathishkumar-rk
+      url-base: https://github.com/Sathishkumar-rk
 
   #
   # Please add items below based on alphabetical order
@@ -88,7 +90,8 @@ manifest:
       groups:
         - hal
     - name: hal_nxp
-      revision: 3e3648526824cc5b52ab59d5dd308473e291b760
+      remote: Sathishkumar-rk
+      revision: 53b8bc406a40e2166679cf1a3381f9eb5de96082
       path: modules/hal/nxp
       groups:
         - hal
@@ -177,7 +180,8 @@ manifest:
       groups:
         - crypto
     - name: mcuboot
-      revision: cfec947e0f8be686d02c73104a3b1ad0b5dcf1e6
+      remote: Sathishkumar-rk
+      revision: 246aca368e919ea9979a4f5db7972bccc9d9ddb1
       path: bootloader/mcuboot
     - name: mipi-sys-t
       path: modules/debug/mipi-sys-t
