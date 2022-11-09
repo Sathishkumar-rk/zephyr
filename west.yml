@@ -21,7 +21,7 @@ manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
-    - name: Sathishkumar-rk
+    - name: bittware
       url-base: https://github.com/Sathishkumar-rk
 
   #
